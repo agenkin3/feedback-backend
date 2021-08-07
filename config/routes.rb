@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :students
   end
 end
+end
 
-fetch('http://localhost:3000/api/v1/evaluations')
+
