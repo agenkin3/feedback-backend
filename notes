@@ -1,0 +1,11 @@
+Student
+has_many :evaluations
+attributes will be
+:name - string, :year - integer, :- string
+
+Evaluation
+belongs_to :student
+attributes will be 
+:attending - string, :date - datetime, :competency - text, :rating - float, :comment - string
+
+1) create tables in our database. Resource generator will make controllers and models. 

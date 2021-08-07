@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  attending: MyString
+  date: 2021-08-06 21:38:07
+  competency: MyString
+  rating: 1.5
+  comment: MyString
+
+two:
+  attending: MyString
+  date: 2021-08-06 21:38:07
+  competency: MyString
+  rating: 1.5
+  comment: MyString
