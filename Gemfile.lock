@@ -150,7 +150,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   listen (~> 3.3)
-  puma (~> 5.0)
+  puma (~> 5.4.0)
   rack-cors
   rails (~> 6.1.4)
   spring

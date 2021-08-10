@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2021_08_07_013806) do
     t.string "competency"
     t.float "rating"
     t.string "comment"
+    t.integer "student_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

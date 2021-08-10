@@ -1,4 +1,5 @@
 class Api::V1::StudentsController < ApplicationController
+
   def index 
   @students = Student.all
   render json: @students
@@ -11,6 +12,7 @@ class Api::V1::StudentsController < ApplicationController
     else 
       render json: {error: 'Error creating student'}
   end
+end 
 
   def show
     @student = Student.find(params[:id])
@@ -20,11 +22,10 @@ class Api::V1::StudentsController < ApplicationController
   def destroy
     @student = Student.find(params[:id])
     @student.destroy
-  end
-  
+  end 
 private
+
   def student_params
   params.requre(:account).permit(:name, :year)
   end
-
 end

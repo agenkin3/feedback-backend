@@ -9,10 +9,11 @@ before_action :set_student
 
   def create
     @evaluation = @student.evaluations.new(evaluation_params)
-    # if @evaluation.save
-    #   render json: @evaluation
+    if @evaluation.save
+      render json: @evaluation
     else 
       render json: {error: 'Error creating evaluation'}
+    end
   end
 
   def show

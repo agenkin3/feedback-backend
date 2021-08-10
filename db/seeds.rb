@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Student.create(name: 'Alice', year: '4', category: 'medical student')
-Evaluation.create(attending: 'Dr. Bob', date: Date.today, competency: 'Medical Knowledge', rating: 4, comment: 'Did a good job evaluating patients today')
+Student.create!(name: 'Alice', year: '4', category: 'medical student')
+Evaluation.create!(attending: 'Dr. Bob', date: Date.today, competency: 'Medical Knowledge', rating: 4, comment: 'Did a good job evaluating patients today', student_id:1)
