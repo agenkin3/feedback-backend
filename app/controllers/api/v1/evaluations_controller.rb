@@ -3,9 +3,9 @@ before_action :set_student
 
 #api/v1/students/1/evaluationss
   def index 
-    @evaluations = @student.evaluations
-    render json: @evaluations
-  end
+      @evaluations = Evaluation.all
+      render json: @evaluations
+    end
 
   def create
     @evaluation = @student.evaluations.new(evaluation_params)
