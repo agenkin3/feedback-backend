@@ -29,7 +29,7 @@ before_action :set_student
   private
 
   def evaluation_params
-  params.requre(:evaluation).permit(:attending, :competency)
+  params.require(:evaluation).permit(:attending, :competency)
   end
 
   def set_student

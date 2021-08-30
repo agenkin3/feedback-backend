@@ -26,6 +26,6 @@ end
 private
 
   def student_params
-  params.requre(:account).permit(:name, :year)
+  params.require(:student).permit(:name, :year, :category)
   end
 end
