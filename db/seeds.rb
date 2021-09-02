@@ -9,3 +9,4 @@
 
 Student.create!(name: 'Alice', year: '4', category: 'medical student')
 Evaluation.create!(attending: 'Dr. Bob', date: Date.today, competency: 'Medical Knowledge', rating: 4, comment: 'Did a good job evaluating patients today', student_id:1)
+Evaluation.create!(attending: 'Dr. Smith ', date: Date.today, competency: 'Communication', rating: 4, comment: 'Did a good job evaluating patients today', student_id:2)
