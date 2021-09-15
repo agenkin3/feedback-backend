@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The front end and read me for this app can be found here: https://github.com/alicegenkin/feedback-frontend
 
 Things you may want to cover:
 
